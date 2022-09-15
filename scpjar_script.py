@@ -13,7 +13,7 @@ file=open("/home/kali/Desktop/ofc/jarLibs.txt")
 jarList=file.readlines()
 ssh = SSHClient()
 ssh.load_system_host_keys()
-ssh.connect('<IP>',port=<22>/<2022>/<2024>,username='admin',password='admin') # change the hostname and port number
+ssh.connect('<IP>',port=<22>/<2022>/<2024>,username='admin',password='admin') # change the hostname and port number #
 
 scp=SCPClient(ssh.get_transport())
 
